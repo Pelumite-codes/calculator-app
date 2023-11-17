@@ -16,6 +16,12 @@
   border-radius: 25px;
   padding: 15px;
 }
+@media only screen and (max-width: 375px) {
+  .calculator-app{
+    padding: 10px;
+    box-shadow: 8px 8px 30px rgba(0, 0, 0, 0.2);
+  }
+}
 .display{
   display: flex;
   justify-content: flex-end;
@@ -32,6 +38,13 @@
   flex: 1;
   font-size: 4rem;
 }
+@media only screen and (max-width: 375px) {
+  .display input{
+    width: 45px;
+    height: 45px;
+    font-size: 2.5rem;
+  }
+}
 button{
   width: 60px;
   height: 60px;
@@ -41,8 +54,16 @@ button{
   background: #3a4452;
   border: none;
   border-radius: 8px;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), -8px -8px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), -5px -px 20px rgba(0, 0, 0, 0.3);
   cursor: pointer;
+}
+@media only screen and (max-width: 375px) {
+  button{
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), -8px -8px 20px rgba(0, 0, 0, 0.3);
+  }
 }
 .clear-btn{
   width: 100%;
