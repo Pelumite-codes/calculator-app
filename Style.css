@@ -54,7 +54,7 @@ button{
   background: #3a4452;
   border: none;
   border-radius: 8px;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), -5px -px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), -8px -8px 20px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
 @media only screen and (max-width: 375px) {
